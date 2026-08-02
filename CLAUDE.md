@@ -6,6 +6,9 @@
 - 開発サーバー起動: `npm run dev`
 - Lint: `npm run lint`
 - ビルド: `npm run build`
+- 公開先: GitHub Pages（`main` へのpushで `.github/workflows/deploy.yml` が自動デプロイ。URL: https://telmothy.github.io/task-board/）
+  - リポジトリ設定 Settings > Pages > Source を「GitHub Actions」にしておく必要がある（初回のみ手動設定）
+  - `vite.config.js` の `base` はリポジトリ名 `/task-board/` に固定している。リポジトリ名を変える場合はここも合わせて変更する
 
 ## Git運用ルール
 
